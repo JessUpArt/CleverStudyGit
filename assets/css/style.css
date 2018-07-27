@@ -47,7 +47,7 @@ a{
 }
 footer{
   text-align: center;
-  background: linear-gradient(9deg, #fc00ff 1%, #00dbde 90%);
+  background: linear-gradient(9deg, #fc00ff, #00dbde);
 -webkit-background-clip: text;
   color: transparent;
   font-family: CircleRounded;
@@ -55,8 +55,26 @@ footer{
   font-italic: normal;
   font-size: 1.5em;
   margin-top: 50px;
+  margin-bottom: 20px;
+
 }
 
+.social{
+  background:  linear-gradient(9deg, #fc00ff, #00dbde);
+  color: #fff;
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  transform: rotate(45deg);
+  margin: 5px;
+  font-size: 0.9em;
+}
+.social i{
+  vertical-align: bottom;
+
+  transform: rotate(-45deg);
+}
 .svg-image{
   position: absolute;
   background-image: url("../img/bgsvg.svg");
