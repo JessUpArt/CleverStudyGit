@@ -45,6 +45,17 @@ a{
   background-position-y:-100px;
   padding-bottom: 250px;
 }
+footer{
+  text-align: center;
+  background: linear-gradient(9deg, #fc00ff 1%, #00dbde 90%);
+-webkit-background-clip: text;
+  color: transparent;
+  font-family: CircleRounded;
+  font-weight: AltBold;
+  font-italic: normal;
+  font-size: 1.5em;
+  margin-top: 50px;
+}
 
 .svg-image{
   position: absolute;
